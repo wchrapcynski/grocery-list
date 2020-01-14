@@ -2,3 +2,10 @@
     border: 1px solid grey;
     width: 200px;
 }
+
+.remove-button {
+  width: 100px;
+  padding: 10px 5px;
+  margin: 10px 0;
+  background-color: white;
+}
