@@ -4,6 +4,8 @@ import "./item.css";
 function item(props) {
   return (
     <div className="item-style">
+      Item #{props.index + 1}
+      <hr/>
       {props.editable ? (
         <input
           type="text"
@@ -11,9 +13,9 @@ function item(props) {
           defaultValue={props.item.name}
         ></input>
       ) : (
-        <h3 onDoubleClick={props.onDoubleClick}>Name: {props.item.name}</h3>
+        <p onDoubleClick={props.onDoubleClick}>Name: {props.item.name}</p>
       )}
-      <h3>Calorie: {props.item.calorie}</h3>
+      <p>Calorie: {props.item.calorie}</p>
       <button
         name={props.item.name}
         className="remove-button"

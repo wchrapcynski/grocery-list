@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="grocery-list-main">
         <h2>Grocery List</h2>
         {items.list.map((value, key) => {
           return (
@@ -54,7 +54,7 @@ function App() {
             ></Item>
           );
         })}
-      </header>
+      </div>
     </div>
   );
 }

@@ -1,11 +1,42 @@
 .item-style {
-    border: 1px solid grey;
+    border: 2px solid grey;
     width: 200px;
+    margin: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-top: 5px;
+}
+
+.item-style p {
+  padding: 0;
+  margin: 2px 0;
+}
+
+.item-style input {
+  height: 9px;
+  width: 180px;
+}
+
+hr {
+  border-top: 1px dashed grey;
+  border-bottom: 1px dashed grey;
 }
 
 .remove-button {
-  width: 100px;
-  padding: 10px 5px;
+  padding: 3px 3px;
   margin: 10px 0;
   background-color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  width: 60px;
+}
+
+.remove-button:hover {
+  background-color: rgb(224, 224, 224);
 }
