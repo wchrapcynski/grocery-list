@@ -8,6 +8,7 @@
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
     padding-top: 5px;
+    text-align: center;
 }
 
 .item-style p {
@@ -20,12 +21,12 @@
   width: 180px;
 }
 
-hr {
+.item-hr {
   border-top: 1px dashed grey;
   border-bottom: 1px dashed grey;
 }
 
-.remove-button {
+.item-remove-button {
   padding: 3px 3px;
   margin: 10px 0;
   background-color: white;
@@ -37,6 +38,6 @@ hr {
   width: 60px;
 }
 
-.remove-button:hover {
+.item-remove-button:hover {
   background-color: rgb(224, 224, 224);
 }

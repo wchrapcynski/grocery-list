@@ -12,7 +12,6 @@ const initList = [
 function App() {
   // const [list, setList] = useState(initList);
   const items = useList(initList);
-
   const [editable, setEditable] = useState(false);
 
   const removeItemHandle = event => {
@@ -38,7 +37,7 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div>
       <div className="grocery-list-main">
         <h2>Grocery List</h2>
         {items.list.map((value, key) => {

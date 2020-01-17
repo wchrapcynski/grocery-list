@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .grocery-list-main {
   background-color: #2f302d;
   min-height: 100vh;
@@ -10,13 +6,6 @@
   align-items: center;
   justify-content: center;
   color: white;
-}
-
-.remove-button {
-  width: 100px;
-  padding: 10px 5px;
-  margin-top: 10px;
-  background-color: white;
 }
 
 button:focus, input:focus{

@@ -5,7 +5,7 @@ function item(props) {
   return (
     <div className="item-style">
       Item #{props.index + 1}
-      <hr/>
+      <hr className="item-hr"/>
       {props.editable ? (
         <input
           type="text"
@@ -18,7 +18,7 @@ function item(props) {
       <p>Calorie: {props.item.calorie}</p>
       <button
         name={props.item.name}
-        className="remove-button"
+        className="item-remove-button"
         onClick={props.onClick}
       >
         Remove
