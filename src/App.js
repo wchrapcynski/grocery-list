@@ -13,6 +13,7 @@ function App() {
   // const [list, setList] = useState(initList);
   const items = useList(initList);
   const [editable, setEditable] = useState(false);
+  const [checked, setChecked] = useState(false);
 
   const removeItemHandle = event => {
     event.preventDefault();
@@ -47,6 +48,7 @@ function App() {
               key={`${key}${value.name}${value.calorie}`}
               onClick={removeItemHandle}
               editable={editable}
+              checked={checked}
               onDoubleClick={makeEditableHandle}
               onKeyPress={keyPressHandle}
               index={key}

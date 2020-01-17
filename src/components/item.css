@@ -16,7 +16,7 @@
   margin: 2px 0;
 }
 
-.item-style input {
+.item-style .item-name {
   height: 9px;
   width: 180px;
 }
